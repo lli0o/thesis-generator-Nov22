@@ -72,9 +72,15 @@ h3 {
     font-size: 1.4em;
     transition-duration: 0.5s;
   }
-  button1, .link{
+  button1 {
     font-size: 1.2em;
   }
+  
+  .info {
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+  }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -88,10 +94,16 @@ h3 {
     transition-duration: 0.3s;
   }
   
-  button1, .link{
+  button1 {
     font-size: 1em;
     transition-duration: 0.3s;
   }
+  
+  .info {
+    font-size: 1em;
+    transition-duration: 0.3s;
+  }
+    
 }
 
 
@@ -130,6 +142,7 @@ box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
   background-color: #FFF338;
   border-radius: 5px;
   
+ 
   float: center;
   line-height: 1;
   padding: 0.8rem 1rem;
