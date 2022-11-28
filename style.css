@@ -143,6 +143,7 @@ box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
 
   transition-duration: 0.4s;
   text-decoration:none;
+  font-size: 1.2em;
   box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
 
 }
@@ -151,7 +152,8 @@ box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
   color:black;
   transition-duration: 0.4s;
   text-decoration:none;
-    float: center;
+  font-size: 1.2em;
+  float: center;
   line-height: 1;
   padding: 0.8rem 0.9rem;
   text-align: center;
