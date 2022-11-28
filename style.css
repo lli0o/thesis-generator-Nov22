@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF338;
+    font-size: 15px;
+  }
+  
+   
+  
+  @font-face {
+      font-family: 'happy_times_at_the_ikob_newIt';
+      src: url('happy-times-ng_italic_master-webfont.woff2') format('woff2'),
+           url('happy-times-ng_italic_master-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+      font-family: 'happy_times_at_the_ikob_newRg';
+      src: url('happy-times-ng_regular_master-webfont.woff2') format('woff2'),
+           url('happy-times-ng_regular_master-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
+  
+  h2 {
+  
+    text-align: center;
+    padding: 1em;
+    margin-top: 3em;
+    color:black;
+  
+    font-family: 'happy_times_at_the_ikob_newIt';
+    font-weight: normal;
+    font-style: normal;
+   
+  }
+  
+  .notes {
+    font-family: courier;
+    font-size: 0.8em;
+    text-align: center;
+    color: #3E3E3E;
+    padding: 1em;
+  }
+  
+  h3 {
+    text-align:center;
+    font-family: 'happy_times_at_the_ikob_newIt, helvetica';
+    font-weight: normal;
+    font-style: italic;
+    font-size: 2.6em;
+    padding-left: 16vw;
+    padding-right: 16vw;
+    margin-top: 8vh;
+    margin-bottom: 13vh;
+  }
+  
+  
+  @media screen and (min-width: 601px) {
+    h3 {
+      font-size: 2.6em;
+        transition-duration: 0.5s;
+    }
+    
+    h2 {
+      font-size: 1.4em;
+      transition-duration: 0.5s;
+    }
+    button1{
+      font-size: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.6em;
+      transition-duration: 0.5s;
+    }
+    
+    h2 {
+      font-size: 1em;
+      transition-duration: 0.3s;
+    }
+    
+    button1{
+      font-size: 1em;
+      transition-duration: 0.3s;
+    }
+  }
+  
+  
+  button1 {
+  position: fixed;
+  top: 85vh; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+    
+    
+    transition-duration: 0.4s;
+    background-color: #FFF338;
+    border-radius: 5px;
+    
+    float: center;
+    line-height: 1;
+    padding: 1rem 1rem;
+    text-align: center;
+  
+    }
+  
+  
+  
+  button1:hover {
+  box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
+  }
+  
+  .info{
+    transition-duration: 0.4s;
+    height: 26px;
+    width: 26px;
+    background-color: none;
+    position: absolute;
+    top:4vh;
+    right:3vh;
+    border-radius: 50%;
+    border: 1.5px solid #1A1A1A;
+    font-size: 16px;
+    float: center;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'helvetica';
+  }
+  
+  .info:hover{
+    background-color:black;
+    color:#FFF338;
+  }
+  
+  
+  /* square {
+    position: absolute;
+    top: 80vh;
+    right: calc(30vw + 87px);
+    height: 15px;
+    width: 15px;
+    background-color: #FFF338;
+    border: 1.5px solid #1A1A1A;
+    transition-duration: 0.4s;
+  } */
+  
+  
+  canvas {
+    display: none;
+  }
+  
