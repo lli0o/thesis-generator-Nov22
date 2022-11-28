@@ -12,16 +12,13 @@ function preload() {
 
 function setup() {
   //createCanvas(900, 800);
-  statement = createElement('h3','Click to generate thesis ideas.')
-  statement.id('myInput');
   
   button1 = createElement('button1', '❏ &nbsp Load Another');
   button1.mousePressed(loop);
   
-  //button2 = createElement('button2','❏ Copy Text');
-  //square = createElement('square');
-  //square2 = createElement('square2');
-  //button2.mousePressed(copyTextToClipBoard);
+  statement = createElement('h3','Click to generate thesis ideas.')
+  statement.id('myInput');
+ 
 }
 
 
@@ -34,6 +31,8 @@ function draw() {
   
   noLoop();
 }
+
+
 
 
 
