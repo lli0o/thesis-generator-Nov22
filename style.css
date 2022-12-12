@@ -28,14 +28,15 @@ html, body {
 
 }
 
+
 h2 {
 
   text-align: center;
   padding: 1em;
-  margin-top: 3em;
+  margin-top: 1em;
   color:black;
 
-  font-family: 'happy_times_at_the_ikob_newIt';
+  font-family: 'happy_times_at_the_ikob_newRg';
   font-weight: normal;
   font-style: normal;
  
@@ -51,9 +52,9 @@ h2 {
 
 h3 {
   text-align:center;
-  font-family: 'happy_times_at_the_ikob_newIt, helvetica';
+  font-family: 'happy_times_at_the_ikob_newRg, helvetica';
   font-weight: normal;
-  font-style: italic;
+  
   font-size: 2.6em;
   padding-left: 16vw;
   padding-right: 16vw;
@@ -123,11 +124,9 @@ box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
 .info{
 
   position: absolute;
-  top:85vh;
+  top:92vh;
   left: 50%;
   transform: translate(-50%, -50%);
-  
-
   background-color: #FFF338;
   border-radius: 5px;
   
@@ -143,21 +142,47 @@ box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
 .link:hover{
 
   text-decoration:none;
- box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
+
+  box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.08), 0 3px 10px 0 rgba(0,0,0,0.08);
 
 }
 
 .link,.link:active,.link:visited{
   
-  color:black;
+  color:gray;
   text-decoration:none;
-    float: center;
+  float: center;
   line-height: 1;
   padding: 0.8rem 0.9rem;
   text-align: center;
   border-radius: 5px;
 }
 
+
+
+.line {
+ 
+  top:8vh;
+  margin:5px 0;
+  height:0.7px;
+  background:
+    repeating-linear-gradient(90deg,black 0 5px,#0000 0 7px)
+    /*5px red then 2px transparent -> repeat this!*/
+}
+
+
+.bottom {
+  display: float;
+  position: absolute;
+  bottom: 15vh;
+  margin:5px 5px;
+  height:0.7px;
+  width: 3000px;
+  background:
+    repeating-linear-gradient(90deg,black 0 5px ,#0000 0 7px) bottom;
+  background-size:100% 0.7px;
+  background-repeat:no-repeat;
+}
 
 
 
